@@ -1,0 +1,7 @@
+python-dotenv==1.0.1
+pandas==2.0.2
+openai==1.30.5
+elasticsearch==8.13.2
+tqdm==4.66.4
+datasets==2.19.1
+streamlit
