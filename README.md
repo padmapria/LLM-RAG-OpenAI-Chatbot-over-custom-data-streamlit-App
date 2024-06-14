@@ -1,4 +1,4 @@
-# LLM RAG Chatbot over custom data with ui using streamlit
+# LLM RAG Chatbot over custom data with ui
 
 <h2> Large Langugate Model</h2> 
 Language models have exploded on the internet ever since ChatGPT came out, and rightfully so. They can write essays, code entire programs, and even make memes. 
