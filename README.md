@@ -75,8 +75,12 @@ ELAST_SEARCH_PWD = os.getenv('ELASTIC_SEARCH_PWD')
 ```
 3. Install Docker Desktop on your computer and start Docker Desktop    
 
-4. Start the application by running the command from the command prompt 
+4. Start the application by running the command from the command prompt <br/>
 docker compose up -d
+
+5. Check the deployed application from the brower..        
+http://localhost:8501 
+![Example Image](chatbot.jpg)
 
 
 
