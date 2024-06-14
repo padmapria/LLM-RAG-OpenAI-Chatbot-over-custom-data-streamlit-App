@@ -3,7 +3,8 @@
 <h2> Large Langugate Model</h2> 
 Language models have exploded on the internet ever since ChatGPT came out, and rightfully so. They can write essays, code entire programs, and even make memes. 
 <br/>
-<b> Limitations of Large Language models </b>    
+<br/>
+<b> Limitations of Large Language models </b> <br/>   
 i) They have limitations in tasks requiring external knowledge (for example, our knowledge base that is our private data) and factual information. For ex, if i ask Language model how much I spent this month, LLM wont be able to tel as its not trained on that data     
       
 ii)  Language models become far more valuable if they can generate insights from any data that we provide, rather than just their original training data.
@@ -47,24 +48,23 @@ https://qdrant.tech/articles/what-is-rag-in-ai/
 
 <b>Streamlit</b><br/>
 - Streamlit is an open-source app framework for Machine Learning and Data Science projects that allows you to build interactive web applications quickly.<br/>
-In this application, Streamlit is used to develop the user interface (UI), providing a user-friendly way to interact with the RAG system.<br/>
+- In this application, Streamlit is used to develop the user interface (UI), providing a user-friendly way to interact with the RAG system.<br/>
 
-<br/>
 <b>Docker</b><br/>
 - The application is deployed in Docker as a Docker app, so you don't need to install any libraries on your computer.    
-<br/>
-**Note:** OpenAI immediately revokes the API key once it detects that the key has been exposed publicly. Therefore, do not expose your API key.<br/>
 
+<h2> How to run This Application</h2> 
+**Note:** OpenAI immediately revokes the API key once it detects that the key has been exposed publicly. Therefore, do not expose your API key.<br/>
 <br/>
 Generate your OpenAI API key here: [Click Here](https://platform.openai.com/account/api-keys)
 
-1. Clone this git repository from command prompt
+1. Clone this git repository from command prompt<br/>
 git clone https://github.com/padmapria/LLM-RAG-Chatbot-over-custom-data-streamlit-App.git    
 cd LLM-RAG-Chatbot-over-custom-data-with-streamlit-ui    
 
 2. Create a `.env` file inside the 'app' folder and store the key as follows:     
-OPENAI_API_KEY='YOUR_API_KEY_HERE'
-ELASTIC_SEARCH_PWD=DkIedPPSCb
+OPENAI_API_KEY=YOUR_API_KEY_HERE<br/>
+ELASTIC_SEARCH_PWD=DkIedPPSCb<br/>
 
 . Refer to the key in `rag.py` by:  
 ```python   
