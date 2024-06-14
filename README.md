@@ -53,6 +53,10 @@ https://qdrant.tech/articles/what-is-rag-in-ai/
 <b>Docker</b><br/>
 - The application is deployed in Docker as a Docker app, so you don't need to install any libraries on your computer.    
 
+<b>OpenAI</b><br/>
+- OpenAI provides the API for accessing powerful language models like GPT-3.5 Turbo.<br/>
+- In this application, the OpenAI API is used to generate responses based on the data retrieved from Elasticsearch, for the query passed from the chatbot.<br/>
+
 <h2> How to run This Application</h2> 
 **Note:** OpenAI immediately revokes the API key once it detects that the key has been exposed publicly. Therefore, do not expose your API key.<br/>
 <br/>
