@@ -40,23 +40,22 @@ https://qdrant.tech/articles/what-is-rag-in-ai/
 
 <h2> Components of This Application</h2> 
 <b>Elasticsearch</b><br/>
-Elasticsearch is a powerful open-source search and analytics engine.<br/>
-In this application, Elasticsearch is used to store and index data.<br/>
-The RAG system queries the data from Elasticsearch to find relevant information needed to answer user queries.<br/>
+- Elasticsearch is a powerful open-source search and analytics engine.<br/>
+- In this application, Elasticsearch is used to store and index data.<br/>
+- The RAG system queries the data from Elasticsearch to find relevant information needed to answer user queries.<br/>
 <br/>
-<br/>
+
 <b>Streamlit</b><br/>
-Streamlit is an open-source app framework for Machine Learning and Data Science projects that allows you to build interactive web applications quickly.<br/>
+- Streamlit is an open-source app framework for Machine Learning and Data Science projects that allows you to build interactive web applications quickly.<br/>
 In this application, Streamlit is used to develop the user interface (UI), providing a user-friendly way to interact with the RAG system.<br/>
-<br/>
+
 <br/>
 <b>Docker</b><br/>
-The application is deployed in Docker as a Docker app, so you don't need to install any libraries on your computer.    
+- The application is deployed in Docker as a Docker app, so you don't need to install any libraries on your computer.    
 <br/>
-**Note:** OpenAI immediately revokes the API key once it detects that the key has been exposed publicly. Therefore, do not expose your API key.
+**Note:** OpenAI immediately revokes the API key once it detects that the key has been exposed publicly. Therefore, do not expose your API key.<br/>
 
 <br/>
-
 Generate your OpenAI API key here: [Click Here](https://platform.openai.com/account/api-keys)
 
 1. Clone this git repository from command prompt
