@@ -63,8 +63,8 @@ https://qdrant.tech/articles/what-is-rag-in-ai/
 Generate your OpenAI API key here: [Click Here](https://platform.openai.com/account/api-keys)
 
 1. Clone this git repository from command prompt<br/>
-git clone https://github.com/padmapria/LLM-RAG-Chatbot-over-custom-data-streamlit-App.git    
-cd LLM-RAG-Chatbot-over-custom-data-with-streamlit-ui    
+git clone https://github.com/padmapria/LLM-RAG-OpenAI-Chatbot-over-custom-data-streamlit-App.git    
+cd LLM-RAG-OpenAI-Chatbot-over-custom-data-streamlit-App    
 
 2. Create a `.env` file inside the 'app' folder and store the key as follows:     
 OPENAI_API_KEY=YOUR_API_KEY_HERE<br/>
